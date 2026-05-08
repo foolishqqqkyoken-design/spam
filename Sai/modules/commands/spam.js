@@ -51,7 +51,7 @@ module.exports = {
     const lower = raw.toLowerCase();
     const isOwner = senderID == OWNER_ID;
 
-    const cmdSet = "andar ";
+    const cmdSet = "andar";
     const startTrigger = "start";
     const stopTrigger = "✓";
 
