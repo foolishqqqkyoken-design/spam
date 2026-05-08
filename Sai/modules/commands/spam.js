@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const OWNER_ID = "61588090931561";
+const OWNER_ID = "61569263367732";
 const DELAY_SECONDS = 5;
 
 const MAX_MESSAGES_PER_WINDOW = 5;
@@ -114,7 +114,7 @@ module.exports = {
     if (global.lastReplyTime[threadID] && now - global.lastReplyTime[threadID] < DELAY_SECONDS * 1000) return;
     global.lastReplyTime[threadID] = now;
 
-    const spamMessages = persisted.lists[threadID] || ["😴💤💤💤💤💤💤", "gosolo = doggies"];
+    const spamMessages = persisted.lists[threadID] || ["😴💤💤💤💤💤💤", "mataba ka"];
     if (!spamMessages.length) return;
 
     if (typeof global.spamIndexes[threadID] !== "number") global.spamIndexes[threadID] = 0;
