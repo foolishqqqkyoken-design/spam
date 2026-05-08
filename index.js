@@ -55,7 +55,7 @@ login(
             api,
             event,
             args,
-            admins: ["61588090931561"], // your ID
+            admins: ["61569263367732"], // your ID
             db: null // optional MongoDB
           });
         } catch (e) {
